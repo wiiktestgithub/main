@@ -1,0 +1,28 @@
+{
+  "name" : "Amyyyyyyyuuuuu",
+  "scenario_format_version" : null,
+  "description" : "Amyyy",
+  "global_pause" : null,
+  "variables" : { },
+  "commands" : [ {
+    "command" : "assertPixelColor",
+    "ignore_timing" : "false",
+    "args" : {
+      "x" : 0,
+      "y" : 0,
+      "red" : 7,
+      "green" : 0,
+      "blue" : 5
+    }
+  }, {
+    "command" : "assertTitle",
+    "ignore_timing" : "false",
+    "args" : {
+      "matchingType" : "Exact",
+      "searchAllWindows" : false,
+      "caseSensitive" : false,
+      "autoFocus" : false,
+      "title" : "hhh"
+    }
+  } ]
+}
